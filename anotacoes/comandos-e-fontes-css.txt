@@ -1,0 +1,18 @@
+📝 LEMBRE-SE
+
+Medidas Absolutas: 
+
+	cm, mm, in, px, pt, pc
+
+Medidas Relativas:
+            
+	em	->	relativo ao tamanho natural da fonte
+	ex	->	relativo a altura x da fonte
+	rem	->	tipo em, mas relativo a fonte configurada no body
+	vw	->	relativo a largura da view port
+	vh	->	relativo a altura da view port
+	%	->	porcentagem
+
+Recomendação w3c:  "px" ou "em"
+
+Altura padrão:  16px ou 1em
