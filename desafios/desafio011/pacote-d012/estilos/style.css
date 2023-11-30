@@ -13,9 +13,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body, html {
+body,
+html {
   background-color: darkgray;
   min-height: 100vh;
 }
@@ -48,32 +50,51 @@ header a:hover {
 }
 
 section {
-  font-family: var(--fontepoema);
   background-color: white;
   text-align: justify;
 }
 
+section p {
+  font-family: var(--fontepoema);
+  line-height: 2em;
+}
 section div {
   padding-top: 10vh;
   padding-bottom: 10vh;
   padding-left: 30px;
-  line-height: 2em;
   font-size: 3vw;
 }
 
 div.texto-imagem {
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
   background-attachment: fixed;
   background-size: cover;
 }
 
 div.texto-imagem p {
   display: inline-block;
-  padding: 5px;
+  padding: 10px 20px 10px 20px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.555)
+  background-color: rgba(0, 0, 0, 0.555);
 }
 
 div#img01 {
   background-image: url("../imagens/background001.jpg");
   background-position: right center;
+}
+
+div#img02 {
+  background-image: url("../imagens/background002.jpg");
+}
+
+footer {
+  background-color: black;
+  padding: 5px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
 }
