@@ -40,7 +40,7 @@ header p {
 header a {
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 header a:hover {
@@ -50,26 +50,26 @@ header a:hover {
 section {
   font-family: var(--fontepoema);
   background-color: white;
-  width: 100%;
   text-align: justify;
 }
 
 section div {
-  padding: 5vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  line-height: 2em;
   font-size: 3vw;
-  line-height: 5vw;
 }
 
 div.texto-imagem {
-  padding-top: 50px;
-  padding-bottom: 50px;
   background-attachment: fixed;
   background-size: cover;
 }
 
 div.texto-imagem p {
+  display: inline-block;
+  padding: 5px;
   color: white;
-  margin-right: 50%;
   background-color: rgba(0, 0, 0, 0.555)
 }
 
