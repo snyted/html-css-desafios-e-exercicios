@@ -37,6 +37,7 @@ header h1 {
 header p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 50px;
+  font-variant: small-caps;
 }
 
 header a {
@@ -92,6 +93,7 @@ footer {
   padding: 5px;
   color: white;
   text-align: center;
+  font-size: 2vh;
 }
 
 footer a {
